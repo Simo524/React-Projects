@@ -5,7 +5,7 @@
     <h2>REACT</h3>
     <table>
         <tr>
-            <td><a href="https://github.com/Simo524/React-Projects/tree/master/01%20-%20TO-DO%20app">TO-DO app</a></td>
+            <td><a href="https://github.com/Simo524/React-Projects/tree/master/01%20-%20TO-DO%20app#readme">TO-DO app</a></td>
             <td style="background-color: rgb(0, 255, 0, 0.5)">done</td>
         </tr>
         <tr>
