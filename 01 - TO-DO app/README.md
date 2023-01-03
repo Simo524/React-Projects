@@ -10,15 +10,15 @@ We will implement things from real world apps <br />
 <ul>
     <li>Division in different fields like "Study", "Coding", "Books", "Movies"</li>
     <li>todo adding</li>
+    <li>Adding categories</li>
 </ul>
 <br />
 <hr />
-<h2>Things to implement</h2>
+<h2>Things that can be implemented</h2>
 <ul>
     <li>Saving on calendar</li>
     <li>Saving on device</li>
     <li>Expring</li>
-    <li>Adding categories</li>
 </ul>
 <br />
 <hr />
