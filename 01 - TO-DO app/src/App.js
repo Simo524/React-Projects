@@ -93,6 +93,8 @@ function App() {
         width={windowSize.innerWidth}
         categories={categories}
         categoriesText={categoriesText}
+        setCategories={setCategories}
+        setCategoriesText={setCategoriesText}
       />
 
       <div className="container my-3">
@@ -102,12 +104,12 @@ function App() {
             <input
               type="text"
               placeholder="New Todo"
-              className="mx-2 add-todo-input"
+              className="add-todo-input"
               onChange={(e) => setTodoText(e.target.value)}
               value={todoText}
             />
             <select
-              className="mx-2 text-secondary"
+              className="me-4 text-secondary"
               style={{ backgroundColor: "transparent", border: "none" }}
               onChange={(e) => setNewColor(e.target.value)}>
               {categoriesText.map((e) => (

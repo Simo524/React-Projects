@@ -5,8 +5,12 @@
   --title-color: #8f8fb8;
   --bg-button: #3e79b1;
 }
-body {
+body, hr{
   background-color: var(--bg-dark-body) !important;
+}
+.modal-content {
+  background-color: var(--bg-dark-label) !important;
+  color: white !important;
 }
 
 .todo {
