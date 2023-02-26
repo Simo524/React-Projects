@@ -1,0 +1,137 @@
+:root {
+  --bg-dark-todo: #43446a;
+  --bg-dark-body: #31315c;
+  --bg-dark-label: #272851;
+  --title-color: #8f8fb8;
+  --bg-button: #3e79b1;
+}
+body,
+hr {
+  background-color: var(--bg-dark-body) !important;
+}
+.bg-dark-body {
+  background-color: var(--bg-dark-body) !important;
+}
+.modal-content {
+  background-color: var(--bg-dark-label) !important;
+  color: white !important;
+}
+
+.todo {
+  background-color: var(--bg-dark-todo);
+  vertical-align: middle;
+}
+h3 {
+  color: var(--title-color);
+}
+.add-todo {
+  background-color: var(--bg-button) !important;
+}
+.add-todo:hover {
+  background-color: var(--bg-button);
+}
+.add-todo-input {
+  background-color: transparent;
+  border: 1px solid transparent;
+  color: white;
+
+  width: 100%;
+}
+.add-todo-label {
+  background-color: var(--bg-dark-label);
+  border-radius: 30px !important;
+}
+.bg-nav {
+  background-color: var(--bg-dark-label) !important;
+}
+.bg-nav-item:hover {
+  background-color: var(--bg-dark-todo) !important;
+}
+.add-todo-input:focus {
+  outline: none;
+}
+.round {
+  position: relative;
+}
+
+.round label {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 28px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 28px;
+}
+
+.round label:after {
+  border: 2px solid #fff;
+  border-top: none;
+  border-right: none;
+  content: "";
+  height: 6px;
+  left: 7px;
+  opacity: 0;
+  position: absolute;
+  top: 8px;
+  transform: rotate(-45deg);
+  width: 12px;
+}
+
+.round input[type="checkbox"] {
+  visibility: hidden;
+}
+
+.round input[type="checkbox"]:checked + label {
+  background-color: #66bb6a;
+  border-color: #66bb6a;
+}
+
+.round input[type="checkbox"]:checked + label:after {
+  opacity: 1;
+}
+
+.no-hover {
+  cursor: default !important;
+}
+.no-hover:hover {
+  background-color: transparent !important;
+}
+.log-in {
+  border: 1px solid var(--bg-button) !important;
+  color: var(--bg-button) !important;
+}
+.log-in:hover {
+  background-color: var(--bg-button) !important;
+  color: white !important;
+}
+.sign-up {
+  background-color: var(--bg-button) !important;
+  color: white !important;
+}
+.sign-up {
+  background-color: rgb(62, 121, 177, 0.6) !important;
+}
+.rs-navbar .rs-navbar-item {
+  background-color: transparent !important;
+}
+.rs-navbar .rs-navbar-item:hover {
+  background-color: transparent !important;
+}
+
+.rs-navbar-item:visited,
+.rs-navbar-item:link,
+.rs-navbar-item:hover {
+  color: white !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .w-75 {
+    width: auto !important;
+  }
+  .todo {
+    justify-content: space-between !important;
+  }
+}
