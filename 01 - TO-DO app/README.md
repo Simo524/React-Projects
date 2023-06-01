@@ -2,6 +2,9 @@
 
 <h1>Todo App</h1>
 
+<img src="https://github.com/Simo524/React-Projects/assets/108552185/b35aa35c-74ee-4f66-b8e9-17efaa8e9996" />
+
+
 <p>Ok, this is the stupidest thing, the thing that everybody tells you to do, but we'll take it the next step </p>
 <p>We won't be doing things stupidly and simplified </p>
 <p>We will implement things from real world apps </p>
